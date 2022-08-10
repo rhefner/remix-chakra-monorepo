@@ -1,0 +1,5 @@
+{
+  "extends": "@myorg/tsc-config/tsconfig.remix.json",
+  "include": ["./src", "./types"],
+  "exclude": ["./src/**/*.test.tsx"]
+}

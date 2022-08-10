@@ -1,0 +1,69 @@
+{
+  "name": "@myorg/tsc-config",
+  "version": "1.0.0",
+  "description": "TypeScript configuration",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhefner/remix-chakra-monorepo.git"
+  },
+  "keywords": [
+    "typescript",
+    "configuration"
+  ],
+  "files": [
+    "tsconfig.json",
+    "tsconfig.eslint.json",
+    "tsconfig.ui.json"
+  ],
+  "scripts": {
+    "build": "exit 0",
+    "clean": "exit 0",
+    "lint": "exit 0",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "@types/jest": "28.1.6",
+    "eslint": "8.21.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-n": "15.2.4",
+    "eslint-plugin-prettier": "4.2.1",
+    "jest": "28.1.3",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "@myorg/common-remix": "workspace:*"
+  },
+  "peerDependenciesMeta": {
+    "@chakra-ui/react": {
+      "optional": true
+    },
+    "@emotion/cache": {
+      "optional": true
+    },
+    "@emotion/react": {
+      "optional": true
+    },
+    "@emotion/server": {
+      "optional": true
+    },
+    "@emotion/styled": {
+      "optional": true
+    },
+    "@remix-run/node": {
+      "optional": true
+    },
+    "@remix-run/react": {
+      "optional": true
+    },
+    "@remix-run/serve": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  }
+}

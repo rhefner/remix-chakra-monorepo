@@ -1,0 +1,4 @@
+{
+  "extends": "@myorg/tsc-config/tsconfig.eslint.json",
+  "include": ["**/*.*"]
+}

@@ -1,0 +1,8 @@
+# Remix
+/.cache
+/build
+/public/build
+.env
+
+# Misc
+**/*.ignored.*

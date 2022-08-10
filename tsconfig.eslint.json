@@ -1,0 +1,5 @@
+{
+  "extends": "./config/tsc/tsconfig.eslint.json",
+  "files": [],
+  "exclude": ["node_modules"]
+}
